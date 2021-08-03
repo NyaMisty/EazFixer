@@ -27,4 +27,4 @@ jobs:
         if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
         with:
           name: EazFixer.exe
-          path: bin\Release\net472\
+          path: EazFixer\bin\Release\net472\
